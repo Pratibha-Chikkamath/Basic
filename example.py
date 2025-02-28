@@ -10,3 +10,13 @@ class B(A):
         print("Child class constructor called y=",y)
 b=B(10,20)
 
+#3
+class A:
+    def __init__(self):
+        print("hiii palle")
+class B(A):
+    def __init__(self):
+        super().__init__()
+        print("Hello student")
+b=B()
+
