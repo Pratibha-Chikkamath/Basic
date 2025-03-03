@@ -11,7 +11,8 @@ c=(re.findall("^Palle.*python$",s))# Write code to find if a given text starts w
 d=len(re.findall("\d",A)) #Find how many digits are there in a given text
 e=len(re.findall("[a-z]",s))# Find how many small letters are there and how many capital letters are there in a given
  #text
-f=(re.findall("^he.*o$",A))# In a given text print all words starting with he and ending with o, and in the middle it has
+h=len(re.findall("[A-Z]",s))
+f=(re.findall("^he.+o$",A))# In a given text print all words starting with he and ending with o, and in the middle it has
 # 1 or more letters.
 g=(re.search("^he.*o$",A))
 print(a)
@@ -21,3 +22,4 @@ print(d)
 print(e)
 print(f)
 print(g)
+print(h)
